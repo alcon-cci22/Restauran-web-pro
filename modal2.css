@@ -1,0 +1,96 @@
+/* Estilos generales del modal */
+:root {
+    /*  --primary-color: #68ddbd 
+    */
+      --primary-color: #03bb85;
+      --primary-color-light: #68ddbd;
+      --primary-color-green: #046148;
+      --secondary-color: #111111;
+      --secondary-color-light: #4a4848;
+      --text-light: #a3a3a3;
+      --white: #ffffff;
+      --black: #000000;
+      --max-width: 1200px;
+    }
+[class^="modal-container"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  .show {
+    pointer-events: auto;
+    opacity: 1;
+  }
+  
+  .modal {
+    background-color: var(--white);
+    padding: 10px; /* Reducir el relleno */
+    max-width: 500px; /* Reducir el ancho máximo a la mitad */
+    height: 80%;
+    text-align: center;
+    border-radius: 5px; /* Reducir el radio del borde */
+    overflow: auto;
+  }
+  
+  /* Estilos específicos para el contenido del modal */
+  .food-img-modal img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 4px; /* Reducir el radio del borde de la imagen */
+    margin-bottom: 5px; /* Reducir el margen inferior de la imagen */
+    margin-left: auto;
+    margin-right: auto; /* Ajusta el margen izquierdo y derecho a "auto" */
+  }
+  
+  
+  .food-price {
+    font-weight: bold;
+    color: #ff0000;
+    margin-top: 7.5px; /* Reducir la separación superior */
+    text-align: center;
+  }
+  
+  /* Estilos para el botón de cerrar */ 
+  #close1,
+  #close2,
+  #close3,
+  #close4,
+  #close5,
+  #close6 {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 5px 10px; /*  #333;Reducir el relleno del botón */
+    border: none;
+    border-radius: 2.5px; /* Reducir el radio del borde del botón */
+    cursor: pointer;
+    margin-top: 7.5px; /* Reducir la separación superior */
+  }
+  
+  /* Estilo para el título */
+  h1 {
+    color: var(--primary-color);
+    font-size: 18px; /* Reducir el tamaño de fuente */
+    margin-bottom: 5px; /* Reducir el margen inferior del título */
+  }
+  
+  /* Estilo para el párrafo */
+  p {
+    color: #666;
+    font-size: 15px; /* Reducir el tamaño de fuente del párrafo */
+    margin-bottom: 7.5px; /* Reducir el margen inferior del párrafo */
+    padding: 0 20px;
+    text-align: justify;
+  }
+  
+  /* Agrega estilos adicionales según sea necesario */
+  

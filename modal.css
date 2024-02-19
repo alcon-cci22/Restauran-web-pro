@@ -1,0 +1,146 @@
+
+ /*      modal        */
+ :root {
+    /*  --primary-color: #68ddbd 
+    */
+      --primary-color: #03bb85;
+      --primary-color-light: #68ddbd;
+      --primary-color-green: #046148;
+      --secondary-color: #111111;
+      --secondary-color-light: #4a4848;
+      --text-light: #a3a3a3;
+      --white: #ffffff;
+      --black: #000000;
+      --max-width: 1200px;
+    }
+    .modal-container1 {
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.3);
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      pointer-events: none;
+      opacity: 0;
+      top: calc(50% - 20%); /* Ajusta la posición superior para centrar verticalmente */
+      bottom: calc(50% - 20%); /* Ajusta la posición inferior para centrar verticalmente */
+      left: 0;
+      height: 40%; /* Ajusta la altura del modal según tus necesidades */
+      width: 100vw;
+      transition: opacity 0.3s ease;
+      }
+    .modal-container2 {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.3);
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        pointer-events: none;
+        opacity: 0;  
+        top: 30px;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        transition: opacity 0.3s ease;
+      }
+    .modal-container3 {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.3);
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        pointer-events: none;
+        opacity: 0;  
+        top: 30px;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        transition: opacity 0.3s ease;
+      }
+    .modal-container4 {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.3);
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        pointer-events: none;
+        opacity: 0;  
+        top: 30px;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        transition: opacity 0.3s ease;
+      }
+    .modal-container5 {
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.3);
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        pointer-events: none;
+        opacity: 0;  
+        top: 120px;
+        bottom: 120px;
+        left: 0;
+        height: 50vh;
+        width: 100vw;
+        transition: opacity 0.3s ease;
+      }
+ .modal-container6 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;  
+    top: 40px;
+    left: 0;
+    /* height: 40vh; */
+    height: 60%;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+  }
+  
+  .show {
+    pointer-events: auto;
+    opacity: 1;
+  }
+  
+  .modal {
+    background-color: #fff;
+    width: 600px;
+    max-width: 80%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .food-menu-container-modal img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    /* align-items: center; */
+    justify-content: center;
+}
+ .modal .food-price {
+    color:var(--primary-color);
+    font-weight: 700;
+}
+  .modal h1 {
+    margin: 0;
+    color: blue;
+    padding-bottom: 15px;
+  }
+  
+  .modal p {
+    opacity: 0.7;
+    font-size: 14px;
+    color: black;
+  }
+  /*        ------------------------------*/ 
+  
+  
